@@ -20,14 +20,23 @@
     padding-top: 0;
 }
 
-.home-content p {
-    font-size: 1.7rem;
-  
- }
+ .home-content h1  {
+    font-size: 3rem;
+    text-shadow: #070707 2px;
+    margin-bottom: 10px; /* Reduce the bottom margin of the <h1> */
+}
+
+.home-content>p {
+    font-size: 2.5vw;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-top: 5px; /* Reduce the top margin of the <p> */
+   
+}
 
 .home-content {
-    top: 50%;
-    margin-top: 8%;
+    top: 40%;
+    /* margin-top: 2%; */
 }
 
 
@@ -231,6 +240,12 @@ product section */
     font-size: 2rem;
     white-space: nowrap;
  }
+
+ .product-item2.blue img {
+    left: 0%;
+    
+ }
+
 
  .product-item2.red {
     display: grid;

@@ -85,7 +85,7 @@ nav {
 /* home section */
 
 #home {
-    background-image: url("../images/background-5.jpg");
+    background-image: url("../images/background-6.jpg");
     background-size: cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
@@ -105,13 +105,17 @@ nav {
 }
 
 .home-content h1  {
-    font-size: 2.5rem;
+    font-size: 10vw;
+    color: #eee;
+    text-shadow: #070707 2px;
+    text-shadow: 2px 3px 4px black; /* Adds a black shadow */
 }
 
-.home-content p {
-    font-size: 1.2rem;
+.home-content>p {
+    font-size: 8vw;
     font-weight: bold;
-   
+    color: #eee;
+    text-shadow: 1px 1px 3px black; /* Adds a subtler black shadow */
 }
 
 .home-content button {
