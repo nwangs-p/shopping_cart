@@ -363,6 +363,23 @@ product section */
     margin-left: 60%;   
     margin-right: 22%;
 }
+.icons {
+    margin-top: 20%;
+}
+
+.icons i {
+    font-size: 180%;
+    color: #fff;
+
+}
+
+
+
+.icons p {
+    font-size: 2vw;
+}
+
+
 
 
 

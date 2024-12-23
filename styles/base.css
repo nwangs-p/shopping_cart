@@ -547,7 +547,7 @@ product section */
 
  .product-item2.blue img {
     position: relative;
-    left: 19%;
+    left: 10%;
     
  }
 
@@ -613,20 +613,23 @@ footer > div p {
 
 .icons {
     position: absolute;
-    bottom: 10px;  /* Place the icons at the bottom */
+    margin-top: 100%;
+    bottom: 1%;  /* Place the icons at the bottom */
     right: 3%;     /* Align the icons to the right */
 }
 
 .icons i {
     /* font-size: 180%;
     color: #fff; */
-    cursor: pointer;
-    transition: color 0.3s ease;
+   display: none;
 }
 
 .icons i:hover{
     opacity: 0.7;
-  }
+}
+
+
+
 
 .contact-form {
     max-width: 500px;
